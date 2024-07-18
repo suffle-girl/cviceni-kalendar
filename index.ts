@@ -1,5 +1,5 @@
 import { polozky } from "./data.js";
-import { PolozkaKalendare } from "./model.js";
+import { PolozkaKalendare } from "./model";
 
 const renderGrid = (): void => {
   const gridElement = document.querySelector(".grid")!;
