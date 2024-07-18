@@ -39,8 +39,3 @@ const renderCalendar = (polozky: PolozkaKalendare[]): void => {
 };
 
 renderCalendar(polozky);
-
-// const h1 = document.createElement("h1");
-// h1.innerHTML = `<span>Hello World!</span>`;
-// h1.classList.add("title");
-// document.body.appendChild(h1);

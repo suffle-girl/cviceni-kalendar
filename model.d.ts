@@ -9,12 +9,12 @@ interface Polozka {
   cas: Cas;
 }
 
-export interface Udalost extends Polozka {
+interface Udalost extends Polozka {
   type: "událost";
   trvani: number;
 }
 
-export interface Ukol extends Polozka {
+interface Ukol extends Polozka {
   type: "úkol";
   splneno: boolean;
 }
